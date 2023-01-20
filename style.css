@@ -12,8 +12,7 @@ body {
 /* navigation menu */
 nav {
     background: rgb(239, 80, 41);
-    margin: 0 auto;
-    margin-bottom: 20px;
+   margin: 0 auto;
     display: flex;
     padding: 10px;
 }
@@ -61,27 +60,3 @@ main {
 h2, h3 {
     margin: 0px;
 }
-
-<div id="all-contents">
-   <div class="sidebar"></div>
-</div>
-
-[id=all-contents] {
-    max-width: 800px;
-    margin: auto;
- }
-
- #all-contents {
-    max-width: 800px;
-    margin: auto;
- }
-
- [class=sidebar] {
-    margin-right: 25px;
-    padding: 10px;
- }
-
- .sidebar {
-    margin-right: 25px;
-    padding: 10px;
- }
