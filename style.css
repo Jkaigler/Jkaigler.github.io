@@ -54,7 +54,7 @@ main {
 
 /* portfolio styles */
          .content h1 {
-            color: black;
+            color: rgb(33, 19, 165);
         }
 
         #portfolio {
@@ -63,14 +63,14 @@ main {
         }
 
         #portfolio li {
-            background: #fff;
+            background: rgb(189, 167, 43);
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background: rgb(34, 155, 84);
         }
 
         #portfolio a {
