@@ -26,24 +26,23 @@ $(function () {
     /////////////////////////////////////////////////
 
     // TODO 1
-    createPlatform(500, 300, 200, 20); 
-    createPlatform(600, 400, 250, 30);
-    createPlatform(400, 200, 100, 10);
-    createPlatform(500, 50, 200, 10);
-    
+    createPlatform(000, 150, 1000, 15); 
+    createPlatform(100, 450, 1300, 20);
+    createPlatform(300, 300, 1100, 20); 
+    createPlatform(400, 50, 200, 20);
     
     // TODO 2
-    createCollectable("steve", 500, 300, 50, 4);
-    createCollectable("grace", 125, 75);
+    createCollectable("steve", 0, 0, 0, 1);
+    createCollectable("grace", 250, 200);
     
     
     
     
     
     // TODO 3
-    createCannon("up", 600, 2000);
-
-
+    createCannon("right", 290, 1000);
+    createCannon("left", 325, 500);
+    
 
 
 

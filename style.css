@@ -11,8 +11,9 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 167, 30);
+    background: rgb(239, 80, 41);
    margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 10px;
 }
@@ -53,8 +54,16 @@ main {
 }
 
 /* portfolio styles */
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+}
+h2, h3 {
+    margin: 0px;
+}
+         /* portfolio styles */
          .content h1 {
-            color: rgb(33, 19, 165);
+            color: black;
         }
 
         #portfolio {
@@ -63,17 +72,17 @@ main {
         }
 
         #portfolio li {
-            background: rgb(189, 167, 43);
+            background: #fff;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
         }
 
         #portfolio li:hover {
-            background: rgb(34, 155, 84);
+            background: #eee;
         }
 
         #portfolio a {
             text-decoration: none;
-            color: #bb2a2a;
+            color: #454545;
         }
