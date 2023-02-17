@@ -26,26 +26,26 @@ $(function () {
     /////////////////////////////////////////////////
 
     // TODO 1
-    createPlatform(000, 150, 1000, 15); 
-    createPlatform(100, 450, 1300, 20);
-    createPlatform(300, 300, 1100, 20); 
-    createPlatform(400, 50, 200, 20);
+    createPlatform(000, 350, 200, 20);
+    createPlatform(300, 450, 200, 20);
+    createPlatform(600, 350, 200, 20);
+    createPlatform(900, 450, 200, 20);
+    createPlatform(1200, 350, 200, 20);
+    
     
     // TODO 2
-    createCollectable("steve", 0, 0, 0, 1);
-    createCollectable("grace", 250, 200);
-    
+    createCollectable("kennedi", 400, 100);
+    createCollectable("grace", 700, 000);
+    createCollectable("max", 1000, 000);
     
     
     
     
     // TODO 3
-    createCannon("right", 290, 1000);
-    createCannon("left", 325, 500);
-    
-
-
-
+    createCannon("bottom", 190, 500);
+    createCannon("top", 610, 500);
+    createCannon("bottom", 790, 500);
+    createCannon("top", 1210, 500);
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
