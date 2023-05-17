@@ -12,22 +12,36 @@ var makeLevelData = function (window) {
     var levelData = [
       {
         name: "Robot Romp",
-        number: 1,
+        currentLevel: 1,
         speed: -3,
         gameItems: [
-          { type: "sawblade", x: 400, y: groundY },
-          { type: "sawblade", x: 600, y: groundY },
-          { type: "sawblade", x: 900, y: groundY },
+          { type: "sawblade", x: 700,  y: 390 },
+          { type: "sawblade", x: 1500, y: groundY },
+          { type: "sawblade", x: 2600, y: 390 },
+          { type: "enemy", x: 450,  y: 474 },
+          { type: "enemy", x: 1250, y: 474 },
+          { type: "enemy", x: 2300, y: 474 },
+          { type: "reward", x: 950, y: 380 },
+          { type: "reward", x: 1800, y: 380 },
+          { type: "reward", x: 2900, y: 380 },
+          { type: "marker", x: 3500, y: 474 },
         ],
       },
       {
         name: "Robot Rampage",
-        number: 2,
+        currentLevel: 2,
         speed: -3,
         gameItems: [
-          { type: "sawblade", x: 400, y: groundY },
-          { type: "sawblade", x: 600, y: groundY },
-          { type: "sawblade", x: 900, y: groundY },
+          { type: "sawblade", x: 700, y: groundY },
+          { type: "sawblade", x: 1500, y: 390 },
+          { type: "sawblade", x: 2600, y: groundY },
+          { type: "enemy", x: 450, y: 474 },
+          { type: "enemy", x: 1250, y: 474 },
+          { type: "enemy", x: 2300, y: 474 },
+          { type: "reward", x: 950, y: 380 },
+          { type: "reward", x: 1800, y: 380 },
+          { type: "reward", x: 2900, y: 380 },
+          { type: "marker", x: 3500, y: 474 },
         ],
       },
     ];
@@ -35,6 +49,12 @@ var makeLevelData = function (window) {
   };
 };
 
+var gameItems = [i];
+for (var i = 0; i < createSawBlade.length; i++) {
+  var createSawBlade = createSawBlade[i];
+
+  // code to do something with each element
+}
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if (
   typeof process !== "undefined" &&
